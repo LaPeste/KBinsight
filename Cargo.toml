@@ -1,5 +1,5 @@
 [package]
-name = "keyboard-stats"
+name = "KBinsight"
 version = "0.1.0"
 authors = ["andrea"]
 edition = "2018"
