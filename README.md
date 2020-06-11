@@ -1,2 +1,2 @@
 # KBinsight
-Application to report all your keyboard stats (CPM, WPM etc), made in Rust with love ❤
+Application to report all your keyboard stats (CPS, WPM etc), made in Rust with love ❤
