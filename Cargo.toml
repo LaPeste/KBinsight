@@ -1,18 +1,13 @@
 [package]
-name = "KBinsight"
+name = "new_ui"
 version = "0.1.0"
-authors = ["andrea"]
+authors = ["Andrea Catalini (qwmj48) <qwmj48@motorolasolutions.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gtk = "^0.8.1"
-gdk = "0.12.1"
-gio = "0.8.0"
-relm = "^0.19.0"
-relm-derive = "^0.19.0"
-# gnuplot = "0.0.34"
-# plotters = {version = "^0.2.12", features = ["cairo"]}
-plotters = {path = "plotters", features = ["cairo"]}
-cairo-rs = "^0.8.1"
+# iced = {version = "0.1.1", features = ["glow"]}
+# iced = "0.1.1"
+iced = { git = "https://github.com/hecrj/iced", features = ["glow"]}
+iced_native = "^0.2"
