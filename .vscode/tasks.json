@@ -5,16 +5,22 @@
     "tasks": [
         {
             "label": "run_app",
-            "type": "cargo",
-            "subcommand": "run",
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "run"
+            ],
             "problemMatcher": [
                 "$rustc"
             ]
         },
         {
             "label": "build_app",
-            "type": "cargo",
-            "subcommand": "build",
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "build"
+            ],
             "problemMatcher": [
                 "$rustc"
             ],
